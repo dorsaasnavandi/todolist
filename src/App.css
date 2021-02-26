@@ -1,0 +1,80 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+body{
+  background-color: #800080;
+}
+.App{
+  width: 400px;
+  background-color: #3f3160;
+  margin:1% auto;
+}
+#to-do-form input{
+  width:60%;
+  background-color: rgb(27,112,137);
+  border: 0;
+  padding:15px 20px;
+  margin:5%;
+  font-size:18px;
+  border-radius: 10px;
+  color:#ffffff;
+}
+#to-do-form input::placeholder{
+  color:rgb(255,255,255,0.5);
+}
+#to-do-form input:focus,#to-do-form button:focus{
+  outline: none;
+}
+#to-do-form button{
+  width:25%;
+  padding:15px 20px;
+  border-radius: 5px;
+  border:0;
+  background-color: rgb(202,156,24);
+  cursor: pointer;
+  font-weight: bolder;
+  color:#ffffff;
+}
+.change-theme{
+  width:25%;
+  padding:15px 20px;
+  margin:10% 0 20px 5%;
+  border-radius: 5px;
+  border:0;
+  background-color: #c6c8ca;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.change-theme:focus{
+  outline: none;
+}
+
+.item-design{
+  width:80%;
+  background-color: #fe019a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:10px 5%;
+  margin:4% 10%;
+  font-size:18px;
+  list-style-type: none;
+  border-radius: 5px;
+  color:#ffffff;
+
+}
+.close-item{
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  font-weight: bolder;
+  color:#ffffff;
+  float: right;
+  font-size: 25px;
+
+}
+.close-item:hover{
+  color: rgb(27,112,137);
+  transition: 0.2s;
+}
+.close-item:focus{
+  outline: inherit;
+}
